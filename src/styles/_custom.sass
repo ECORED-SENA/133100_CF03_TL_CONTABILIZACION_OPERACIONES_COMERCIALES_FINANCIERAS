@@ -2,18 +2,19 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 66%
-    right: 58%
+    width: 120px
+    top: 40%
+    left: -20%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 23%
+    top: 55%
     right: 13%
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 31%
-    right: 73%
+    top: 15%
+    left: -20%
 
 @keyframes float1
   0%
@@ -28,10 +29,33 @@
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important
+  width: 350px !important
+  top: 40px 
+  @media screen and (max-width: 1200px)
+    width: 370px !important
+  @media screen and (min-width: 1400px)
+    width: 370px !important
+    top: 48px
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: color-sistema-texto !important
+
+.banner-principal__row
+  padding: 0rem 0rem 0rem 1rem
+
+.banner-principal__descripcion
+  padding: 0rem 4rem 0rem 0rem
+  @media screen and (max-width: 768px)
+    padding: 0rem !important
+  @media screen and (min-width: 1400px)
+    padding: 0rem !important
+  
+.banner-principal__info
+  padding: 0rem 4rem 0rem 0rem
+  @media screen and (max-width: 576px)
+    padding: 9rem 2.4rem 9rem 1.5rem !important
+  @media screen and (min-width: 1400px)
+    padding: 0rem !important
 
 figcaption
   font-weight: normal
@@ -66,7 +90,7 @@ figcaption
 
 .bg-color
   &-1
-    background-color: #CBE7E8 !important
+    background-color: #FEF4E8 !important
   &-1-1
     background-color: #E4EAEE !important
   &-1-2
@@ -104,6 +128,7 @@ figcaption
     background-color: #CBD8DF
   &-10-1
     background-color: #003F62
+    border-radius: 8px
     h5
       color: white
   &-10-2
@@ -160,6 +185,8 @@ figcaption
     background-color: #F9F9F9
   &-white
     background-color: #fff
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4)
+    border-radius: 8px
 //CLASES TITULOS//
 .titulo-con-imagen
   display: flex
@@ -173,11 +200,13 @@ figcaption
   align-items: center
 .titulo-con-imagen__imagen
   position: absolute
-  left: -20px
+  left: 10px
+  bottom: -10px
   width: 50px
 .titulo-con-imagen__texto
   margin: 0
   padding-left: 20px
+  margin-left: 1.5rem
 //CLASES REEMPLAZADAS//
 .lista-ol--cuadro__vineta
   background-color: #FD9826 !important
@@ -269,14 +298,18 @@ table thead th
   background-color: $color-acento-contenido !important
 .tabs-a__tab
   background-color: #FED5A7
+  width: 240px
+  @media screen and (max-width: 1200px)
+    width: 100%
 .color-acento-botones--borde
-  background-color: $color-adicional-1 !important
+  background-color: #CBE7E8 !important
+  border: 0px solid #8B9097 !important
   padding: 2rem !important
-  margin-left: 8rem
+  margin-left: 5rem
   @media screen and (max-width: 1200px)
     margin-left: 0rem
   @media screen and (min-width: 1400px)
-    margin-left: 5rem
+    margin-left: 3rem
 
 
 
@@ -339,3 +372,115 @@ table thead th
   background-color: #CBD8DF
 .tarjeta--boton:hover
   background-color: #FED5A7
+
+.color___box-1
+  background-image: url("../assets/curso/tema1/69.png")
+  background-repeat: no-repeat
+  background-size: 1145px
+  margin-inline: -3.2rem !important
+  @media screen and (min-width: 1400px)
+    background-size: 1325px
+
+.color___box-2
+  background-image: url("../assets/curso/tema1/70.png")
+  background-repeat: no-repeat
+  background-size: 1145px
+  margin-inline: -3.2rem !important
+  background-position: bottom
+  @media screen and (min-width: 1400px)
+    background-size: 1325px
+
+.tarjeta.color-acento-botones
+  background-color: white
+  padding: 4rem 2.5rem !important
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3)
+  p
+    color: $color-sistema-texto
+.horizontal-scroll__wrapper
+  padding: 1rem 0.5rem
+.fa-chevron-right
+  color: $color-acento-botones
+.fa-chevron-left
+  color: $color-acento-botones
+.estilo-text
+  text-align: center
+  padding: 0.3rem
+.slyder-f__btn i
+  font-size: 1.2rem
+  background-color: $color-acento-botones
+  color: $color-sistema-texto
+  border-radius: 50px
+  padding: 0.8rem 1rem
+.slyder-f__btn i:hover
+  background-color: $color-acento-botones
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3)
+  border: 1px solid white
+  transition: opacity 0.3s ease-in-outbox-shadow 0.3s ease-in-out
+
+.box___style_1
+  background-color: #CBE7E8
+  border-radius: 8px
+  padding: 1rem 0rem 0rem 2rem
+  @media screen and (max-width: 1200px)
+    padding-top: 1.5rem !important
+.ajuste-ul
+  padding: 1rem
+
+.box___style_2
+  background-color: #CBD8DF
+  border-radius: 8px
+  padding-right: 2rem
+  @media screen and (max-width: 1200px)
+    padding: 0rem
+    ul
+      padding: 1.5rem
+    img
+      margin: 0rem !important
+      padding: 0rem !important
+.fit___p_box
+  @media screen and (max-width: 1200px)
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem
+
+.cambiar-color-1
+  background-color: #F3F9FF
+  border-radius: 8px
+  padding: 1.4rem !important
+  @media screen and (min-width: 1400px)
+    padding: 2.9rem !important
+
+.cambiar-color-2
+  background-color: #CBE7E8
+  border-radius: 8px
+
+.box___style_3
+  background-color: #E4EAEE
+  padding-right: 1rem
+  border-radius: 8px
+  @media screen and (max-width: 1200px)
+    padding: 0rem
+    ol
+      padding: 1.5rem
+    p
+      padding: 1.5rem
+    img
+      margin: 0rem !important
+      padding: 0rem !important
+
+.ajuste-cajaAcordion
+  padding: 0rem 1rem 0rem 0rem
+  ul
+    padding: 0rem 3.3rem
+  li
+    @media screen and (max-width: 1200px)
+      width: auto
+.fa-chevron-right
+  color: #FD9827
+
+.color-acento-botones--borde-1
+  background-color: #CBE7E8 !important
+  border: 0px solid #8B9097 !important
+  padding: 2rem !important
+  @media screen and (max-width: 1200px)
+    margin-left: 0rem
+  @media screen and (min-width: 1400px)
+    margin-left: -3rem

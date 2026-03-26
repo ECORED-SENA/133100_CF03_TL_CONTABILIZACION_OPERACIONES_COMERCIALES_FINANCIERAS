@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Archivo y conservación de documentos
@@ -255,7 +255,7 @@
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
-        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Sistema de gestión electrónica de documentos
     
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5

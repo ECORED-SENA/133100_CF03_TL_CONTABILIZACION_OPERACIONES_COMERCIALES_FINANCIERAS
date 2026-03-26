@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Libros contables
@@ -165,7 +165,7 @@
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
-        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Libro diario
     
     p.mb-4(data-aos="fade-left") Es un medio de prueba para las autoridades, registra el día a día las operaciones comerciales, registrando devengos contables, presenta como características sumas iguales.
@@ -221,7 +221,7 @@
         
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
-        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Libro mayor y balances
     
     p.mb-5(data-aos="fade-left") Cada mes se debe realizar cierre del periodo con el fin de identificar el comportamiento financiero del periodo y, de esta forma, que los administradores puedan tomar decisiones.
@@ -264,7 +264,7 @@
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
-        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Libro de actas de asamblea
     
     p.mb-5(data-aos="fade-left") Según el Código del Comercio (Secretaría del Senado, 2020. Art. 189 y 431):
@@ -314,7 +314,7 @@
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
-        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Libros de Consejo de administración o Junta directiva
     
     p.mb-5(data-aos="fade-left") En este libro se registra la información básica de la empresa, se incluyen todas las decisiones en las actas, como acuerdos a los que llegan los dueños de una empresa. Se debe llevar un orden cronológico de las reuniones, en él se encuentran inscritos los dueños, administradores y representante legal, siempre debe estar firmado por secretario y presidente.
@@ -354,7 +354,7 @@
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
-        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Libros de actas de Junta de Vigilancia o Comité de Control Social y Registro Social
     
     p.mb-5(data-aos="fade-left") Para registrar dichos libros se requiere una carta de solicitud de inscripción de libros.  
@@ -410,7 +410,7 @@
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
-        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Libros auxiliares
     
     p.mb-5(data-aos="fade-left") Son los libros que reflejan de forma ordenada las operaciones realizadas por la empresa, afectando los débitos y créditos de una o varias cuentas y subcuentas, con el fin de generar el saldo en una fecha determinada.
@@ -444,7 +444,7 @@
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
-        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
+        img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Sistema de gestión documental emitido por el ente regulador
     
     p.mb-5(data-aos="fade-left") El Estado colombiano busca, mediante la Resolución 8934 de febrero de 2014, implementar el sistema de gestión documental, con el objetivo de mantener organizados los archivos en el sector privado, enfocada básicamente en la organización de:
